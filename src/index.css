@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.delete-overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: black;
+  z-index: 100;
+  opacity: 80%;
+}
+
+.card-confirmation{
+  /* position: fixed;
+  top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 120;
+}
+
+.main-sidebar{
+  z-index: 10;
+}
+
+.brand-link{
+  z-index: -1;
+}
+
+.main-sidebar{
+  z-index: 1;
+}
